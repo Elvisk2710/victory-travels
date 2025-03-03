@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Menu, Phone, Mail, MapPin, X } from 'lucide-react';
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -20,7 +19,9 @@ export default function Header() {
               </div>
               <div className="flex items-center">
                 <Mail size={16} className="mr-2" />
-                <span className="text-sm">info@victorytravels.com</span>
+                <span className="text-sm"><a href="mailto:victorytravelzim@gmail.com" style={{
+                  color: 'white',
+                }}>victorytravelzim@gmail.com</a></span>
               </div>
             </div>
             <div className="flex items-center">

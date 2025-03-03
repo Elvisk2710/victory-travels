@@ -1,5 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import { Heart, Shield, Lightbulb, Eye } from 'lucide-react';
+import sheraton from "../assets/sheraton.png"
+import mteverest from "../assets/mteverest.png"
+
 
 const values = [
   {
@@ -12,17 +16,17 @@ const values = [
     title: "Mission",
     description: "Our main aim is to make our client's travel dream a reality, leaving long lasting hassle free memories."
   },
-  {
-    icon: Heart,
-    title: "Integrity",
-    description: "We conduct our business with the highest ethical standards, ensuring transparency in all our dealings."
-  },
+  // {
+  //   icon: Heart,
+  //   title: "Integrity",
+  //   description: "We conduct our business with the highest ethical standards, ensuring transparency in all our dealings."
+  // },
 
-  {
-    icon: Lightbulb,
-    title: "Transparency",
-    description: "Clear communication and honest pricing are the cornerstones of our service delivery."
-  }
+  // {
+  //   icon: Lightbulb,
+  //   title: "Transparency",
+  //   description: "Clear communication and honest pricing are the cornerstones of our service delivery."
+  // }
 ];
 
 export default function About() {
@@ -41,14 +45,14 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?auto=format&fit=crop&q=80"
+              src={sheraton}
               alt="Sheraton Maldives Full Moon Resort & Spa"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1516616370751-86d6bd8b0651?auto=format&fit=crop&q=80"
+              src={mteverest}
               alt="Mount Everest"
               className="w-full h-full object-cover"
             />

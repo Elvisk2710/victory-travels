@@ -1,23 +1,27 @@
 import React, { useState, useEffect } from 'react';
+import criuse from "../assets/criuse.png";
+import emirates from "../assets/emirates.png";
+import jabal from "../assets/jabal.png";
+import nyanga from "../assets/nyanga.png";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80",
+    image: emirates,
     title: "Emirates Airlines",
     description: "Experience luxury at 30,000 feet"
   },
   {
-    image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?auto=format&fit=crop&q=80",
+    image: jabal,
     title: "Jabal Omar Makkah Hotel",
     description: "Spiritual tranquility meets modern comfort"
   },
   {
-    image: "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80",
+    image: criuse,
     title: "Scarlet Lady Cruise Ship",
     description: "Set sail on an unforgettable journey"
   },
   {
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80",
+    image: nyanga,
     title: "Zimbabwe Nyanga National Park",
     description: "Discover nature's untamed beauty"
   }
@@ -38,9 +42,8 @@ export default function Hero() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            index === currentSlide ? 'opacity-100' : 'opacity-0'
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? 'opacity-100' : 'opacity-0'
+            }`}
         >
           <div className="absolute inset-0 bg-black/40 z-10" />
           <img
@@ -60,9 +63,8 @@ export default function Hero() {
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full ${
-              index === currentSlide ? 'bg-white' : 'bg-white/50'
-            }`}
+            className={`w-3 h-3 rounded-full ${index === currentSlide ? 'bg-white' : 'bg-white/50'
+              }`}
             onClick={() => setCurrentSlide(index)}
           />
         ))}
