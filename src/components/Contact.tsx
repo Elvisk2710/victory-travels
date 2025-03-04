@@ -2,8 +2,7 @@ import React from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { FaFacebook } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
-
-
+import { IoLogoTiktok } from "react-icons/io5";
 
 const consultants = [
   {
@@ -115,6 +114,23 @@ export default function Contact() {
                   margin: '0',
                   gap: '0.4rem'
                 }} target='blank'><PiInstagramLogoFill size={24} /> <p>Instagram</p>
+                </a>
+              </div>
+              <div className="flex items-start space-x-4" style={{
+                display: 'flex',
+                justifyContent: 'start',
+                alignItems: 'center',
+                margin: '0',
+                gap: '3rem'
+              }}
+              >
+                <a href="https://www.tiktok.com/@victorytravel483?_t=ZM-8uOcGp9nHYF&_r=1/" style={{
+                  display: 'flex',
+                  justifyContent: 'start',
+                  alignItems: 'center',
+                  margin: '0',
+                  gap: '0.4rem'
+                }} target='blank'><IoLogoTiktok size={24} /> <p>TikTok</p>
                 </a>
               </div>
             </div>

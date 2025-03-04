@@ -15,7 +15,7 @@ const services = [
   {
     icon: Building,
     title: "Accommodation",
-    description: "At Victory Travel & Tours, we go beyond just booking your travel— we ensure that your accommodation meets your highest standards. With access to a wide range of properties worldwide, we secure the perfect lodging to suit your preferences and budget. Whether you’re looking for luxury, comfort, or convenience, we handle all the details, leaving you free to focus on enjoying your journey. Travel with us and experience the ease of having your accommodation expertly managed, every step of the way"
+    description: "At Victory Travel & Tours, we go beyond just booking your travel— we ensure that your accommodation meets your highest standards. With access to a wide range of properties worldwide, we secure the perfect lodging to suit your preferences and budget. Whether you’re looking for luxury, comfort, or convenience, we handle all the details, leaving you free to focus on enjoying your journey. Travel with us and experience the ease of having your accommodation expertly managed, every step of the way."
   },
   {
     icon: Palmtree,
