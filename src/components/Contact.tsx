@@ -6,7 +6,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 
 const consultants = [
   {
-    name: "Nester Gadaga",
+    name: "Nester Gadaga Makate",
     role: "Travel Manager",
     phone: "+263 77 285 3085"
   },
